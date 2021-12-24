@@ -59,7 +59,7 @@ do {
 
 // forEach for arrays
 
-let course = ["html", "css", "js"];
-course.forEach((course) => {
+let courses = ["html", "css", "js"];
+courses.forEach((course) => {
   console.log(course);
 });
