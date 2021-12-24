@@ -84,3 +84,18 @@ marks = 55;
 console.log(
   marks >= 70 ? "first class" : marks < 70 && marks > 50 ? "pass" : "fail"
 );
+
+// switch
+let isMarried = true;
+
+// switch goes through all the cases and if case|value is matches it executes that part of block
+// in our case 'true' case will be matched
+// we can use break so after executing it comes out of switch and doesn't execute other conditions
+
+switch (isMarried) {
+  case true:
+    console.log("congrats");
+    break;
+  case false:
+    console.log("ok");
+}
