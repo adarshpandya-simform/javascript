@@ -22,3 +22,7 @@ updates for 24-dec: <br>
     - learnt about functions/arrow functions
 
     -use strict
+    -prototypal __proto__
+    -how function and array are atachhed to object using __proto__
+    - has own property
+    - array/function object but has pointer __proto__ which goes to Array/Function which links to object
