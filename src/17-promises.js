@@ -11,21 +11,16 @@ const myPromise = new Promise((resolve, reject) => {
   }
 });
 
-myPromise
-  .then(
-    (response) => {
-      console.log(response);
-      console.log("resolved");
-    },
-    (rejectResp) => {
-      console.log(rejectResp);
-      console.log("rejected");
-    }
-  )
-  .catch((err) => {
-    console.log("error");
-    console.log(err);
-  });
+myPromise.then(
+  (response) => {
+    console.log(response);
+    console.log("resolved");
+  },
+  (rejectResp) => {
+    console.log(rejectResp);
+    console.log("rejected");
+  }
+);
 
 //   handle error with catch
 myPromise
@@ -52,5 +47,20 @@ myPromise
     console.log(
       "finally block will execute in all cases (resolve/reeject/err)"
     );
-    console.log(res);
   });
+
+const promiseCall = () => {
+  myPromise.then(
+    (response) => {
+      console.log(response);
+      console.log("resolved");
+    },
+    (rejectResp) => {
+      console.log(rejectResp);
+      console.log("rejected");
+    }
+  );
+};
+
+console.log("calling promise in function");
+promiseCall();
