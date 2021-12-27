@@ -20,3 +20,5 @@ updates for 24-dec: <br>
     - implemented conditionals
     - implemented loops
     - learnt about functions/arrow functions
+
+    -use strict
