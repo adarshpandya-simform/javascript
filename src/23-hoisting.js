@@ -25,3 +25,14 @@ var print;
 // surname = "parmar";
 // console.log(surname);
 // let surname;
+
+// hoisting with function
+func();
+
+function func() {
+  console.log("this won't be printed");
+}
+
+function func() {
+  console.log("this will be printed");
+}
