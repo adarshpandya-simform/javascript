@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/adarshpandya-simform/javascript/issues"
   },
-  "homepage": "https://github.com/adarshpandya-simform/javascript#readme"
+  "homepage": "https://github.com/adarshpandya-simform/javascript#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
 }
