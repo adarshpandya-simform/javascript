@@ -1,7 +1,7 @@
-## Javascript Basics (24-dec)
+## Javascript Basics (24-dec,27dec)
 
 <hr>
-Started on : 24-12-2021<br>
+Started on : 24-12-2021,27-12-2021<br>
 Mentor : Mitul <br>
 Training Coordinator: Bhumika<br>
 Team Manager : Mehul Pandya
@@ -21,8 +21,25 @@ updates for 24-dec: <br>
     - implemented loops
     - learnt about functions/arrow functions
 
-    -use strict
-    -prototypal __proto__
-    -how function and array are atachhed to object using __proto__
-    - has own property
-    - array/function object but has pointer __proto__ which goes to Array/Function which links to object
+updates for 27-dec: <br>
+
+    - learnt IIFE
+    - gone through udemy course of advance JS
+    - did object oriented JS
+    - learnt about class,constructor,access specifier, object, super keyword , inheritance
+    - learnt about usage of 'use strict'
+    - watched and implemented hoisting
+    - tried rest,spread operators
+    - explored maps,sets and symbols
+    - did destructuring for array/object
+    - did scope chaining/ learnt more about closures
+    - learnt about prototype
+    - learnt about __proto__
+    - learn about prototypal inheritance
+    - learnt how function and array are attached to parent object using __proto__
+    - explored 'hasOwnProperty' property
+    - tried generator functions
+    - explored about promises
+    - learnt about `promise.all`
+    - implemented tagged-template-literals
+    - modified .map() method with prototype
