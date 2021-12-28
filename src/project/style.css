@@ -120,3 +120,7 @@ body{
 .normal-row button:active{
     background: #d3d3d3;
 }
+
+.equal{
+    background: #90BFE5 !important;
+}
