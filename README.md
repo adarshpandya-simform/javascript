@@ -1,4 +1,4 @@
-## Javascript Basics (24-dec,27dec)
+## Javascript Basics (24-dec,27dec) -
 
 <hr>
 Started on : 24-12-2021,27-12-2021<br>
