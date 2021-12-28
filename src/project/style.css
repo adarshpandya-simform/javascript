@@ -93,3 +93,30 @@ body{
 .selector select::-ms-expand{
     display: none !important;
 }
+
+.normal-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.normal-row button{
+    background: transparent;
+    letter-spacing: .3px;
+    border: none;
+    font-size: 16px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    margin:7px 0px;
+    background: #F5F5F6;
+}
+
+.normal-row button:hover{
+    background: #d3d3d3;
+    border-radius: 5px;
+}
+
+.normal-row button:active{
+    background: #d3d3d3;
+}
