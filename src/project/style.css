@@ -20,18 +20,76 @@ body{
     box-shadow: 0px 2px 6px rgba(255, 255, 255, .5);
     padding: 10px;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .result-area{
-    width: 30%;
+    flex: 3;
+    /* background: burlywood; */
 }
 
+
+
 .result-area input{
+    width: 100%;
     font-size: 25px;
     outline: none;
     border: none;
     direction: rtl;
     background:transparent;
+}
+
+.calc-inputs{
+    flex: 9;
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+}
+
+.scientific-btns{
+    width: 100% !important;
+}
+
+.scientific-btns button{
+    background: transparent;
+    letter-spacing: .3px;
+    border: none;
+    font-size: 16px;
+    padding: 8px 25px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.scientific-btns button:hover{
+    background: #d3d3d3;
+    border-radius: 5px;
+}
+
+.scientific-btns button:active{
+    background: #d3d3d3;
+}
+
+.mathematical-selectors{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px;
+}
+
+.selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.selector select{
+    border: none;
+    background: transparent;
+    
+}
+
+.selector select::-ms-expand{
+    display: none !important;
 }
